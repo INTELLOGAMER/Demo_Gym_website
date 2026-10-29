@@ -1,0 +1,1162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="IRONCORE FITNESS — A premier strength, conditioning, and athletic training facility. Experience state-of-the-art equipment, world-class coaching, and a motivating fitness community.">
+  <meta name="theme-color" content="#080808">
+  <title>IRONCORE FITNESS — Built By Discipline | Premium Gym & Strength Club</title>
+
+  <!-- Google Fonts: Bebas Neue (Headings), Oswald (Subheads/Tags), Inter (Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700;800&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ========================================================================
+       1. NAVIGATION BAR
+       ======================================================================== -->
+  <header class="navbar" id="navbar" role="banner">
+    <div class="container nav-container">
+      <!-- Brand Logo / Wordmark -->
+      <a href="#hero" class="nav-brand" aria-label="IRONCORE FITNESS Home">
+        IRONCORE<span class="nav-brand-dot">.</span>
+        <span class="nav-brand-tag">CLUB</span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" aria-label="Main Navigation">
+        <a href="#hero" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#facilities" class="nav-link">Facilities</a>
+        <a href="#trainers" class="nav-link">Trainers</a>
+        <a href="#membership" class="nav-link">Membership</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Nav CTA Action -->
+      <div class="nav-actions">
+        <a href="#membership" class="btn btn-primary nav-btn-join">JOIN NOW</a>
+        <!-- Mobile Menu Hamburger Button -->
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle Navigation Menu" aria-expanded="false" aria-controls="mobile-drawer">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer & Backdrop -->
+  <div class="mobile-backdrop" id="mobile-backdrop"></div>
+  <aside class="mobile-drawer" id="mobile-drawer" aria-label="Mobile Navigation Drawer">
+    <!-- Drawer Header with Brand & Explicit Close Button -->
+    <div class="mobile-drawer-header">
+      <div class="mobile-drawer-brand">
+        IRONCORE<span class="text-accent">.</span>
+      </div>
+      <button class="mobile-drawer-close" id="mobile-drawer-close" aria-label="Close navigation menu" type="button">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true">
+          <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+        </svg>
+      </button>
+    </div>
+
+    <div class="mobile-nav-links">
+      <a href="#hero" class="mobile-nav-link">Home</a>
+      <a href="#about" class="mobile-nav-link">About</a>
+      <a href="#facilities" class="mobile-nav-link">Facilities</a>
+      <a href="#trainers" class="mobile-nav-link">Trainers</a>
+      <a href="#membership" class="mobile-nav-link">Membership</a>
+      <a href="#motivation" class="mobile-nav-link">Gallery</a>
+      <a href="#contact" class="mobile-nav-link">Contact</a>
+    </div>
+    <div class="mobile-drawer-footer">
+      <a href="#membership" class="btn btn-primary btn-block">JOIN IRONCORE NOW</a>
+      <div class="mobile-contact-info">
+        <p><strong>Open Daily:</strong> 5:30 AM – 10:30 PM</p>
+        <p><strong>Call:</strong> +91 98765 43210</p>
+      </div>
+    </div>
+  </aside>
+
+  <main id="main-content">
+    <!-- ======================================================================
+         2. HERO SECTION
+         ====================================================================== -->
+    <section class="hero" id="hero" aria-label="Hero Introduction">
+      <!-- Background Image with Gradients -->
+      <div class="hero-bg">
+        <img 
+          src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1920&auto=format&fit=crop" 
+          alt="Athlete training with heavy dumbbells in modern high-performance gym"
+          width="1920" 
+          height="1080"
+          fetchpriority="high"
+        >
+      </div>
+      <div class="hero-overlay"></div>
+      <div class="hero-grid-pattern"></div>
+
+      <div class="container">
+        <div class="hero-content reveal-on-scroll">
+          <!-- Community Rating / Social Proof Stat -->
+          <div class="hero-stat-badge">
+            <div class="avatar-stack">
+              <img class="avatar-stack-item" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=100&auto=format&fit=crop" alt="Member" width="24" height="24">
+              <img class="avatar-stack-item" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=100&auto=format&fit=crop" alt="Member" width="24" height="24">
+              <img class="avatar-stack-item" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=100&auto=format&fit=crop" alt="Member" width="24" height="24">
+            </div>
+            <span class="hero-stat-text">
+              <span class="hero-stat-rating">★ 4.9/5</span> Rating · 1,200+ Active Members
+            </span>
+          </div>
+
+          <!-- Eyebrow Tag -->
+          <div class="eyebrow">YOUR FITNESS. YOUR RULES.</div>
+
+          <!-- Main Condensed Display Heading -->
+          <h1 class="hero-title">
+            BUILT BY<br>
+            <span class="text-accent">DISCIPLINE.</span>
+          </h1>
+
+          <!-- Supporting Text -->
+          <p class="hero-lead">
+            Push your limits. Build your strength. Become the strongest version of yourself in a purpose-built fitness sanctuary engineered for results.
+          </p>
+
+          <!-- Action Buttons -->
+          <div class="hero-actions">
+            <a href="#membership" class="btn btn-primary">
+              START YOUR JOURNEY
+              <svg class="btn-icon-svg" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="#facilities" class="btn btn-outline">
+              EXPLORE THE GYM
+            </a>
+          </div>
+
+          <!-- Scroll Indicator -->
+          <a href="#about" class="hero-scroll-indicator" aria-label="Scroll down to learn more about Ironcore">
+            <div class="scroll-mouse">
+              <div class="scroll-wheel"></div>
+            </div>
+            <span>SCROLL TO EXPLORE</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         3. STATISTICS STRIP
+         ====================================================================== -->
+    <section class="stats-strip" aria-label="Key Gym Statistics">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-item reveal-on-scroll">
+            <div class="stat-number">1,200<span class="stat-number-accent">+</span></div>
+            <div class="stat-label">Active Members</div>
+          </div>
+          <div class="stat-item reveal-on-scroll">
+            <div class="stat-number">15<span class="stat-number-accent">+</span></div>
+            <div class="stat-label">Expert Trainers</div>
+          </div>
+          <div class="stat-item reveal-on-scroll">
+            <div class="stat-number">25<span class="stat-number-accent">+</span></div>
+            <div class="stat-label">Training Stations</div>
+          </div>
+          <div class="stat-item reveal-on-scroll">
+            <div class="stat-number">7<span class="stat-number-accent"> DAYS</span></div>
+            <div class="stat-label">Open Every Week</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         4. ABOUT SECTION
+         ====================================================================== -->
+    <section class="about-section section-padding" id="about" aria-label="About Ironcore Fitness">
+      <div class="container">
+        <div class="about-grid">
+          <!-- Left: Image Composition -->
+          <div class="about-image-wrapper reveal-on-scroll">
+            <div class="about-main-image">
+              <img 
+                src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?q=80&w=1000&auto=format&fit=crop" 
+                alt="Athlete performing deadlift at Ironcore Fitness strength zone" 
+                loading="lazy"
+                width="1000"
+                height="1250"
+              >
+            </div>
+            <!-- Floating Badge Card -->
+            <div class="about-floating-card">
+              <div class="about-floating-tag">ELITE FACILITY</div>
+              <div class="about-floating-val">15,000</div>
+              <div class="about-floating-desc">Sq. Ft. of pure athletic conditioning & strength zones.</div>
+            </div>
+          </div>
+
+          <!-- Right: Editorial Content -->
+          <div class="about-content reveal-on-scroll">
+            <div class="eyebrow">MORE THAN A GYM</div>
+            <h2 class="section-heading">
+              NO SHORTCUTS.<br>
+              JUST <span class="text-accent">RESULTS.</span>
+            </h2>
+            <p class="about-description">
+              Built for people who show up, put in the work, and refuse to settle. Discover a training environment designed around strength, consistency, and progress. Whether you are lifting your first barbell or training for athletic competition, IRONCORE gives you the tools, coaching, and energy to surpass your goals.
+            </p>
+
+            <!-- 3 Editorial Highlights -->
+            <div class="about-highlights">
+              <div class="highlight-item">
+                <div class="highlight-icon">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+                </div>
+                <div>
+                  <h3 class="highlight-title">Expert-led training</h3>
+                  <p class="highlight-desc">Certified strength coaches who program with scientific precision and correct technique.</p>
+                </div>
+              </div>
+
+              <div class="highlight-item">
+                <div class="highlight-icon">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.57 14.86L22 13.43 20.57 12 17 15.57 8.43 7 12 3.43 10.57 2 9.14 3.43 7.71 2 5.57 4.14 4.14 2.71 2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57 3.43 12 7 8.43 15.57 17 12 20.57 13.43 22l1.43-1.43L16.29 22l2.14-2.14 1.43 1.43 1.43-1.43-1.43-1.43L22 16.29z"/></svg>
+                </div>
+                <div>
+                  <h3 class="highlight-title">Modern equipment</h3>
+                  <p class="highlight-desc">Olympic platforms, calibrated steel plates, curved treadmills, and ergonomic machinery.</p>
+                </div>
+              </div>
+
+              <div class="highlight-item">
+                <div class="highlight-icon">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5s-3 1.34-3 3 1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg>
+                </div>
+                <div>
+                  <h3 class="highlight-title">A motivating community</h3>
+                  <p class="highlight-desc">An ego-free environment where hard work is celebrated and every member drives each other forward.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Discover Button -->
+            <a href="#facilities" class="btn btn-accent-outline">
+              DISCOVER MORE
+              <svg class="btn-icon-svg" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         5. FACILITIES SECTION (Asymmetric Editorial Grid)
+         ====================================================================== -->
+    <section class="facilities-section section-padding" id="facilities" aria-label="Our Facilities">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header centered reveal-on-scroll">
+          <div class="eyebrow">WORLD-CLASS AMENITIES</div>
+          <h2 class="section-heading">EVERYTHING YOU NEED TO LEVEL UP.</h2>
+          <p class="section-subheading">
+            Purpose-built training zones engineered for raw strength, metabolic endurance, and full-body athletic conditioning.
+          </p>
+        </div>
+
+        <!-- 6 Asymmetric Facility Cards -->
+        <div class="facilities-grid">
+          <!-- 1. Strength & Weight Training (Wide) -->
+          <article class="facility-card reveal-on-scroll">
+            <div class="facility-image">
+              <img 
+                src="https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?q=80&w=900&auto=format&fit=crop" 
+                alt="Olympic barbell lifting platform and calibrated plates" 
+                loading="lazy"
+                width="900"
+                height="600"
+              >
+            </div>
+            <div class="facility-overlay"></div>
+            <div class="facility-content">
+              <span class="facility-badge">ZONE 01</span>
+              <h3 class="facility-title">Strength & Weight Training</h3>
+              <p class="facility-desc">Olympic lifting platforms, Eleiko calibrated plates, competition power racks, and heavy dumbbells up to 60 kg.</p>
+            </div>
+          </article>
+
+          <!-- 2. Modern Cardio Zone -->
+          <article class="facility-card reveal-on-scroll">
+            <div class="facility-image">
+              <img 
+                src="https://images.unsplash.com/photo-1576678927484-cc907957088c?q=80&w=900&auto=format&fit=crop" 
+                alt="Row of premium high-performance treadmills and cardio machines" 
+                loading="lazy"
+                width="900"
+                height="600"
+              >
+            </div>
+            <div class="facility-overlay"></div>
+            <div class="facility-content">
+              <span class="facility-badge">ZONE 02</span>
+              <h3 class="facility-title">Modern Cardio Zone</h3>
+              <p class="facility-desc">Curved non-motorized treadmills, Concept2 rowing machines, skiergs, and assault bikes designed for maximum metabolic conditioning.</p>
+            </div>
+          </article>
+
+          <!-- 3. Personal Training -->
+          <article class="facility-card reveal-on-scroll">
+            <div class="facility-image">
+              <img 
+                src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=900&auto=format&fit=crop" 
+                alt="Personal coach instructing athlete with tailored workout" 
+                loading="lazy"
+                width="900"
+                height="600"
+              >
+            </div>
+            <div class="facility-overlay"></div>
+            <div class="facility-content">
+              <span class="facility-badge">ZONE 03</span>
+              <h3 class="facility-title">Personal Training</h3>
+              <p class="facility-desc">Dedicated 1-on-1 coaching bays with customized progressive overload protocols and mobility assessments.</p>
+            </div>
+          </article>
+
+          <!-- 4. Functional Fitness -->
+          <article class="facility-card reveal-on-scroll">
+            <div class="facility-image">
+              <img 
+                src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=900&auto=format&fit=crop" 
+                alt="Turf track with battle ropes, plyo boxes, and kettlebells" 
+                loading="lazy"
+                width="900"
+                height="600"
+              >
+            </div>
+            <div class="facility-overlay"></div>
+            <div class="facility-content">
+              <span class="facility-badge">ZONE 04</span>
+              <h3 class="facility-title">Functional Fitness</h3>
+              <p class="facility-desc">30-meter indoor sled turf, heavy battle ropes, plyometric boxes, kettlebell racks, and suspension rigs.</p>
+            </div>
+          </article>
+
+          <!-- 5. Group Training -->
+          <article class="facility-card reveal-on-scroll">
+            <div class="facility-image">
+              <img 
+                src="https://images.unsplash.com/photo-1518611012118-696072aa579a?q=80&w=900&auto=format&fit=crop" 
+                alt="Athletes engaged in high-energy group fitness conditioning class" 
+                loading="lazy"
+                width="900"
+                height="600"
+              >
+            </div>
+            <div class="facility-overlay"></div>
+            <div class="facility-content">
+              <span class="facility-badge">ZONE 05</span>
+              <h3 class="facility-title">Group Training</h3>
+              <p class="facility-desc">High-tempo team sessions including Power Camp, Barbell Conditioning, and Core Mobility classes led by senior instructors.</p>
+            </div>
+          </article>
+
+          <!-- 6. Recovery & Amenities (Full width banner card) -->
+          <article class="facility-card reveal-on-scroll">
+            <div class="facility-image">
+              <img 
+                src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=1200&auto=format&fit=crop" 
+                alt="Luxurious wellness recovery zone with sauna and private locker suites" 
+                loading="lazy"
+                width="1200"
+                height="600"
+              >
+            </div>
+            <div class="facility-overlay"></div>
+            <div class="facility-content">
+              <span class="facility-badge">ZONE 06</span>
+              <h3 class="facility-title">Recovery & Amenities</h3>
+              <p class="facility-desc">Infrared saunas, cold therapy immersion plunge tubs, private showers, keyless biometric lockers, and an artisanal protein shake bar.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         6. TRAINERS SECTION
+         ====================================================================== -->
+    <section class="trainers-section section-padding" id="trainers" aria-label="Our Head Trainers">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header reveal-on-scroll">
+          <div class="eyebrow">ELITE COACHING</div>
+          <h2 class="section-heading">TRAIN WITH PURPOSE.</h2>
+          <p class="section-subheading">
+            Learn from dedicated coaches who live and breathe performance. Every program is grounded in exercise science, biomechanics, and relentless dedication.
+          </p>
+          <span class="demo-badge">Fictional Demo Content — Replace with real trainer bios</span>
+        </div>
+
+        <!-- 3 Trainer Cards -->
+        <div class="trainers-grid">
+          <!-- Trainer 1 -->
+          <article class="trainer-card reveal-on-scroll">
+            <div class="trainer-photo-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1567013127542-490d757e51fc?q=80&w=800&auto=format&fit=crop" 
+                alt="Trainer Arjun Mehta — Strength Coach" 
+                loading="lazy"
+                width="800"
+                height="960"
+              >
+              <div class="trainer-photo-overlay"></div>
+              <span class="trainer-specialty-pill">Powerlifting & Hypertrophy</span>
+            </div>
+            <div class="trainer-details">
+              <h3 class="trainer-name">Arjun Mehta</h3>
+              <div class="trainer-role">Head Strength Coach</div>
+              <p class="trainer-bio">
+                Over 10 years of experience helping athletes break through lifting plateaus, optimize bar paths, and build formidable raw strength with zero compromises on joint safety.
+              </p>
+              <div class="trainer-meta">
+                <span>Specialty: Heavy Compound Lifts</span>
+                <div class="trainer-socials">
+                  <a href="#trainers" class="trainer-social-link" aria-label="Arjun Mehta Instagram">
+                    <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Trainer 2 -->
+          <article class="trainer-card reveal-on-scroll">
+            <div class="trainer-photo-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1594381898411-846e7d193883?q=80&w=800&auto=format&fit=crop" 
+                alt="Trainer Riya Sharma — Fitness and Conditioning" 
+                loading="lazy"
+                width="800"
+                height="960"
+              >
+              <div class="trainer-photo-overlay"></div>
+              <span class="trainer-specialty-pill">HIIT & Metabolic Conditioning</span>
+            </div>
+            <div class="trainer-details">
+              <h3 class="trainer-name">Riya Sharma</h3>
+              <div class="trainer-role">Head of Conditioning</div>
+              <p class="trainer-bio">
+                Former national track athlete who crafts high-intensity, sweat-drenched conditioning workouts designed to burn fat, skyrocket cardiovascular stamina, and sharpen mental grit.
+              </p>
+              <div class="trainer-meta">
+                <span>Specialty: Agility & Stamina</span>
+                <div class="trainer-socials">
+                  <a href="#trainers" class="trainer-social-link" aria-label="Riya Sharma Instagram">
+                    <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Trainer 3 -->
+          <article class="trainer-card reveal-on-scroll">
+            <div class="trainer-photo-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?q=80&w=800&auto=format&fit=crop" 
+                alt="Trainer Kabir Singh — Personal Training Coach" 
+                loading="lazy"
+                width="800"
+                height="960"
+              >
+              <div class="trainer-photo-overlay"></div>
+              <span class="trainer-specialty-pill">Body Recomposition</span>
+            </div>
+            <div class="trainer-details">
+              <h3 class="trainer-name">Kabir Singh</h3>
+              <div class="trainer-role">Senior Performance Coach</div>
+              <p class="trainer-bio">
+                Specialist in nutritional strategy, postural alignment, and sustainable physical transformations for executives and competitive athletes demanding peak daily performance.
+              </p>
+              <div class="trainer-meta">
+                <span>Specialty: 1-on-1 Transformation</span>
+                <div class="trainer-socials">
+                  <a href="#trainers" class="trainer-social-link" aria-label="Kabir Singh Instagram">
+                    <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         7. MEMBERSHIP SECTION (Interactive Pricing Cards)
+         ====================================================================== -->
+    <section class="membership-section section-padding" id="membership" aria-label="Membership Pricing Plans">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header centered reveal-on-scroll">
+          <div class="eyebrow">TRANSPARENT PRICING</div>
+          <h2 class="section-heading">INVEST IN YOURSELF.</h2>
+          <p class="section-subheading">
+            Simple, honest memberships with zero hidden registration fees or lock-in contracts. Choose the tier that matches your dedication.
+          </p>
+        </div>
+
+        <!-- 3 Tier Pricing Cards -->
+        <div class="pricing-grid">
+          <!-- BASIC PLAN -->
+          <div class="pricing-card reveal-on-scroll">
+            <div class="pricing-header">
+              <div class="plan-tier-name">BASIC</div>
+              <div class="plan-price-wrap">
+                <span class="plan-currency">₹</span>
+                <span class="plan-amount">799</span>
+                <span class="plan-duration">/ month</span>
+              </div>
+              <p class="plan-summary">Essential training access for self-directed fitness enthusiasts.</p>
+            </div>
+            <ul class="pricing-features">
+              <li class="feature-item">
+                <span class="feature-check"><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg></span>
+                <span>Gym floor access</span>
+              </li>
+              <li class="feature-item">
+                <span class="feature-check"><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg></span>
+                <span>Standard equipment & free weights</span>
+              </li>
+              <li class="feature-item">
+                <span class="feature-check"><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg></span>
+                <span>Flexible workout hours</span>
+              </li>
+              <li class="feature-item">
+                <span class="feature-check"><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg></span>
+                <span>Locker room & shower access</span>
+              </li>
+              <li class="feature-item muted">
+                <span class="feature-check"><svg viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg></span>
+                <span>Group workout sessions</span>
+              </li>
+              <li class="feature-item muted">
+                <span class="feature-check"><svg viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg></span>
+                <span>Personal training consultation</span>
+              </li>
+            </ul>
+            <button class="btn btn-outline btn-block btn-select-plan" data-plan="basic" type="button">
+              SELECT PLAN
+            </button>
+          </div>
+
+          <!-- PRO PLAN (Recommended / Highlighted) -->
+          <div class="pricing-card featured reveal-on-scroll">
+            <div class="pricing-badge">RECOMMENDED</div>
+            <div class="pricing-header">
+              <div class="plan-tier-name">PRO</div>
+              <div class="plan-price-wrap">
+                <span class="plan-currency">₹</span>
+                <span class="plan-amount">1,499</span>
+                <span class="plan-duration">/ month</span>
+              </div>
+              <p class="plan-summary">Our most popular package for serious athletes wanting full facility access.</p>
+            </div>
+            <ul class="pricing-features">
+              <li class="feature-item">
+                <span class="feature-check"><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg></span>
+                <span>Full gym access (All 6 zones)</span>
+              </li>
+              <li class="feature-item">
+                <span class="feature-check"><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg></span>
+                <span>Cardio and strength zones</span>
+              </li>
+              <li class="feature-item">
+                <span class="feature-check"><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg></span>
+                <span>Group workout sessions included</span>
+              </li>
+              <li class="feature-item">
+                <span class="feature-check"><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg></span>
+                <span>Monthly fitness assessment</span>
+              </li>
+              <li class="feature-item">
+                <span class="feature-check"><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg></span>
+                <span>Infrared sauna & recovery access</span>
+              </li>
+              <li class="feature-item muted">
+                <span class="feature-check"><svg viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg></span>
+                <span>1-on-1 personal training consultation</span>
+              </li>
+            </ul>
+            <button class="btn btn-primary btn-block btn-select-plan" data-plan="pro" type="button">
+              SELECT PRO PLAN
+            </button>
+          </div>
+
+          <!-- ELITE PLAN -->
+          <div class="pricing-card reveal-on-scroll">
+            <div class="pricing-header">
+              <div class="plan-tier-name">ELITE</div>
+              <div class="plan-price-wrap">
+                <span class="plan-currency">₹</span>
+                <span class="plan-amount">2,499</span>
+                <span class="plan-duration">/ month</span>
+              </div>
+              <p class="plan-summary">VIP training with personalized coaching and all-inclusive recovery perks.</p>
+            </div>
+            <ul class="pricing-features">
+              <li class="feature-item">
+                <span class="feature-check"><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg></span>
+                <span>Full gym access (24/7 keycard entry)</span>
+              </li>
+              <li class="feature-item">
+                <span class="feature-check"><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg></span>
+                <span>Personal training consultation (2x/month)</span>
+              </li>
+              <li class="feature-item">
+                <span class="feature-check"><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg></span>
+                <span>Priority class access & guest passes</span>
+              </li>
+              <li class="feature-item">
+                <span class="feature-check"><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg></span>
+                <span>Personalized nutrition & fitness guidance</span>
+              </li>
+              <li class="feature-item">
+                <span class="feature-check"><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg></span>
+                <span>Full spa & cold plunge recovery suite</span>
+              </li>
+              <li class="feature-item">
+                <span class="feature-check"><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg></span>
+                <span>Complimentary towel & locker service</span>
+              </li>
+            </ul>
+            <button class="btn btn-outline btn-block btn-select-plan" data-plan="elite" type="button">
+              SELECT ELITE PLAN
+            </button>
+          </div>
+        </div>
+
+        <div class="pricing-notice">
+          * Demo prices shown for presentation purposes. All memberships include initial orientation and induction.
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         8. TRANSFORMATION / MOTIVATION SECTION
+         ====================================================================== -->
+    <section class="motivation-section section-padding" id="motivation" aria-label="Training Gallery & Motivation">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header reveal-on-scroll">
+          <div class="eyebrow">PURE EFFORT</div>
+          <h2 class="section-heading">THE WORK SHOWS.</h2>
+          <p class="section-subheading">
+            There are no secrets in fitness. You build results one rep, one session, and one hard-fought day at a time.
+          </p>
+          <span class="demo-badge">Demo Gallery — General athletic training showcase. Not verified customer transformation claims.</span>
+        </div>
+
+        <!-- 4 Image Visual Gallery -->
+        <div class="gallery-grid">
+          <!-- Gallery Item 1 -->
+          <div class="gallery-item reveal-on-scroll">
+            <img 
+              src="https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?q=80&w=800&auto=format&fit=crop" 
+              alt="Powerlifter lifting heavy barbell" 
+              loading="lazy"
+              width="800"
+              height="1060"
+            >
+            <div class="gallery-overlay">
+              <span class="gallery-tag">POWERLIFTING</span>
+              <div class="gallery-title">Iron Builds Character</div>
+            </div>
+          </div>
+
+          <!-- Gallery Item 2 -->
+          <div class="gallery-item reveal-on-scroll">
+            <img 
+              src="https://images.unsplash.com/photo-1549060279-7e168fcee0c2?q=80&w=800&auto=format&fit=crop" 
+              alt="Athlete engaged in intense conditioning training" 
+              loading="lazy"
+              width="800"
+              height="1060"
+            >
+            <div class="gallery-overlay">
+              <span class="gallery-tag">CONDITIONING</span>
+              <div class="gallery-title">Relentless Engine</div>
+            </div>
+          </div>
+
+          <!-- Gallery Item 3 -->
+          <div class="gallery-item reveal-on-scroll">
+            <img 
+              src="https://images.unsplash.com/photo-1598971639058-fab3c3109a00?q=80&w=800&auto=format&fit=crop" 
+              alt="Athlete performing calisthenic muscle-up on bar" 
+              loading="lazy"
+              width="800"
+              height="1060"
+            >
+            <div class="gallery-overlay">
+              <span class="gallery-tag">CALISTHENICS</span>
+              <div class="gallery-title">Master Your Body</div>
+            </div>
+          </div>
+
+          <!-- Gallery Item 4 -->
+          <div class="gallery-item reveal-on-scroll">
+            <img 
+              src="https://images.unsplash.com/photo-1574680096145-d05b474e2155?q=80&w=800&auto=format&fit=crop" 
+              alt="Weightlifter executing deep barbell back squat" 
+              loading="lazy"
+              width="800"
+              height="1060"
+            >
+            <div class="gallery-overlay">
+              <span class="gallery-tag">HYPERTROPHY</span>
+              <div class="gallery-title">Consistency Over Time</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         9. TESTIMONIALS SLIDER SECTION
+         ====================================================================== -->
+    <section class="testimonials-section section-padding" id="testimonials" aria-label="Member Stories and Testimonials">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header centered reveal-on-scroll">
+          <div class="eyebrow">ATHLETE VOICES</div>
+          <h2 class="section-heading">PROVEN IN THE GYM.</h2>
+          <p class="section-subheading">
+            Hear from members who showed up, put in the work, and reshaped their lives inside our walls.
+          </p>
+          <span class="demo-badge">Sample demo testimonials — Replace with real verified Google or member reviews</span>
+        </div>
+
+        <!-- Slider Wrapper -->
+        <div class="slider-wrapper reveal-on-scroll" tabindex="0" aria-label="Testimonial Carousel">
+          <div class="slider-container">
+            <div class="testimonial-track">
+              <!-- Slide 1 -->
+              <div class="testimonial-slide">
+                <div class="quote-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24"><path d="M6 17h3l2-4V7H5v6h3zm8 0h3l2-4V7h-6v6h3z"/></svg>
+                </div>
+                <blockquote class="testimonial-quote">
+                  "IRONCORE completely changed my perspective on fitness. The atmosphere here isn't like typical commercial gyms—the equipment is pristine, the music is motivating, and everyone is genuinely dialed in on their goals."
+                </blockquote>
+                <div class="testimonial-author-name">Vikram Singhania</div>
+                <div class="testimonial-author-role">Member Since 2023 · Pro Plan</div>
+              </div>
+
+              <!-- Slide 2 -->
+              <div class="testimonial-slide">
+                <div class="quote-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24"><path d="M6 17h3l2-4V7H5v6h3zm8 0h3l2-4V7h-6v6h3z"/></svg>
+                </div>
+                <blockquote class="testimonial-quote">
+                  "The personal training guidance from Arjun dialed in my form within two weeks. I added 30kg to my deadlift while staying completely injury-free. The investment in the Elite Plan paid for itself ten times over."
+                </blockquote>
+                <div class="testimonial-author-name">Neha Kapoor</div>
+                <div class="testimonial-author-role">Member Since 2024 · Elite Plan</div>
+              </div>
+
+              <!-- Slide 3 -->
+              <div class="testimonial-slide">
+                <div class="quote-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24"><path d="M6 17h3l2-4V7H5v6h3zm8 0h3l2-4V7h-6v6h3z"/></svg>
+                </div>
+                <blockquote class="testimonial-quote">
+                  "Top tier cardio machinery and the recovery sauna makes all the difference after intense sprint days. The community here keeps me accountable every morning at 6 AM sharp."
+                </blockquote>
+                <div class="testimonial-author-name">Rohan Deshmukh</div>
+                <div class="testimonial-author-role">Member Since 2022 · Pro Plan</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Controls: Prev, Dots, Next -->
+          <div class="slider-controls">
+            <button class="slider-btn slider-btn-prev" type="button" aria-label="Previous Testimonial">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>
+            </button>
+            <div class="slider-dots" role="tablist" aria-label="Testimonial pagination"></div>
+            <button class="slider-btn slider-btn-next" type="button" aria-label="Next Testimonial">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         10. FREE TRIAL CTA BANNER
+         ====================================================================== -->
+    <section class="cta-banner-section" aria-label="Free Trial Offer">
+      <div class="cta-banner-bg">
+        <img 
+          src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=1920&auto=format&fit=crop" 
+          alt="Atmospheric gym weights and barbell" 
+          loading="lazy"
+          width="1920"
+          height="800"
+        >
+      </div>
+      <div class="cta-banner-overlay"></div>
+
+      <div class="container">
+        <div class="cta-banner-content reveal-on-scroll">
+          <div class="eyebrow">YOUR FIRST SESSION IS ON US</div>
+          <h2 class="cta-banner-title">YOUR FIRST REP STARTS HERE.</h2>
+          <p class="cta-banner-lead">
+            Take the first step. Experience the energy. Find your strength. Book a free 1-day pass and discover what makes IRONCORE different.
+          </p>
+          <a href="#contact" class="btn btn-primary" id="btn-free-trial">
+            BOOK A FREE TRIAL
+            <svg class="btn-icon-svg" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         11. CONTACT & ENQUIRY FORM SECTION
+         ====================================================================== -->
+    <section class="contact-section section-padding" id="contact" aria-label="Contact and Enquiry Form">
+      <div class="container">
+        <div class="contact-grid">
+          <!-- Left: Gym Information & WhatsApp -->
+          <div class="contact-info-wrap reveal-on-scroll">
+            <div class="contact-card">
+              <div class="eyebrow">GET IN TOUCH</div>
+              <h2 class="section-heading" style="font-size: 2.4rem;">
+                JOIN THE<br>
+                <span class="text-accent">IRONCORE CLUB.</span>
+              </h2>
+              <p class="text-muted" style="margin-bottom: 1.5rem;">
+                Have questions regarding memberships, personal coaching, or facilities? Speak to our team directly or schedule an on-site facility walk-through.
+              </p>
+
+              <div class="contact-meta-list">
+                <!-- Location -->
+                <div class="contact-meta-item">
+                  <div class="contact-meta-icon">
+                    <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                  </div>
+                  <div>
+                    <div class="contact-meta-label">Location</div>
+                    <div class="contact-meta-val">Plot 42, Sector 18, Commercial Hub, New Delhi, India</div>
+                  </div>
+                </div>
+
+                <!-- Phone -->
+                <div class="contact-meta-item">
+                  <div class="contact-meta-icon">
+                    <svg viewBox="0 0 24 24"><path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56-.35-.12-.74-.03-1.01.24l-1.57 1.97c-2.83-1.44-5.15-3.75-6.59-6.59l1.97-1.57c.27-.27.35-.66.24-1.01-.37-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.72 21 20.01 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99z"/></svg>
+                  </div>
+                  <div>
+                    <div class="contact-meta-label">Direct Phone</div>
+                    <div class="contact-meta-val">+91 98765 43210</div>
+                  </div>
+                </div>
+
+                <!-- Hours -->
+                <div class="contact-meta-item">
+                  <div class="contact-meta-icon">
+                    <svg viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
+                  </div>
+                  <div>
+                    <div class="contact-meta-label">Training Hours</div>
+                    <div class="contact-meta-val">Mon–Sat: 5:30 AM – 10:30 PM<br>Sun: 7:00 AM – 8:00 PM</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- WhatsApp Instant Enquiry Box -->
+            <div class="whatsapp-cta-box">
+              <div class="whatsapp-box-title">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M16.75 13.96c.25.13.41.2.46.3.06.11.04.61-.21 1.18-.2.56-1.24 1.1-1.7 1.12-.46.02-.47.36-2.96-.73-2.49-1.09-3.99-3.75-4.11-3.92-.12-.17-.99-1.38-.99-2.63 0-1.25.61-1.86.83-2.12.22-.26.48-.32.64-.32.16 0 .32 0 .46.01.15.01.35-.06.55.43.2.49.69 1.7.75 1.83.06.13.1.28.02.44-.08.17-.12.27-.24.41-.12.14-.25.32-.36.43-.12.12-.24.25-.1.5.14.25.62 1.05 1.34 1.71.92.84 1.7 1.1 1.94 1.23.24.13.38.11.53-.06.15-.17.63-.74.8-1 .17-.26.34-.21.57-.12zM12 2a10 10 0 0 0-10 10c0 1.77.46 3.45 1.28 4.93L2 22l5.23-1.23A9.95 9.95 0 0 0 12 22a10 10 0 0 0 10-10A10 10 0 0 0 12 2zm0 18.2a8.16 8.16 0 0 1-4.22-1.17l-.3-.18-3.1.73.83-3.02-.2-.31A8.17 8.17 0 1 1 12 20.2z"/></svg>
+                Instant WhatsApp Chat
+              </div>
+              <p class="whatsapp-box-desc">
+                Prefer messaging? Tap below to chat instantly with our membership desk on WhatsApp.
+              </p>
+              <a href="#" class="btn btn-whatsapp" id="contact-whatsapp-btn" target="_blank" rel="noopener noreferrer">
+                CHAT ON WHATSAPP
+              </a>
+            </div>
+          </div>
+
+          <!-- Right: Interactive Enquiry Form -->
+          <div class="enquiry-form-card reveal-on-scroll">
+            <!-- Selected Plan Alert Banner -->
+            <div class="selected-plan-banner" id="selected-plan-banner">
+              <span class="selected-plan-text">
+                Selected Plan: <span class="selected-plan-name" id="selected-plan-name">Pro</span>
+              </span>
+              <button class="btn-clear-plan" id="btn-clear-plan" type="button">Change Plan</button>
+            </div>
+
+            <!-- The Form -->
+            <form id="enquiry-form" novalidate aria-label="Gym Membership Enquiry Form">
+              <div class="form-row">
+                <!-- Full Name -->
+                <div class="form-group" id="group-full-name">
+                  <label for="full-name" class="form-label">
+                    Full Name <span class="label-required">*</span>
+                  </label>
+                  <input 
+                    type="text" 
+                    id="full-name" 
+                    name="fullName" 
+                    class="form-input" 
+                    placeholder="e.g. Vikram Malhotra" 
+                    required 
+                    autocomplete="name"
+                  >
+                  <div class="form-error" id="error-full-name"></div>
+                </div>
+
+                <!-- Phone Number -->
+                <div class="form-group" id="group-phone-number">
+                  <label for="phone-number" class="form-label">
+                    Phone Number <span class="label-required">*</span>
+                  </label>
+                  <input 
+                    type="tel" 
+                    id="phone-number" 
+                    name="phoneNumber" 
+                    class="form-input" 
+                    placeholder="e.g. 98765 43210" 
+                    required 
+                    autocomplete="tel"
+                  >
+                  <div class="form-error" id="error-phone-number"></div>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <!-- Email (Optional) -->
+                <div class="form-group" id="group-email-address">
+                  <label for="email-address" class="form-label">
+                    Email Address <span class="label-optional">(Optional)</span>
+                  </label>
+                  <input 
+                    type="email" 
+                    id="email-address" 
+                    name="emailAddress" 
+                    class="form-input" 
+                    placeholder="vikram@example.com" 
+                    autocomplete="email"
+                  >
+                  <div class="form-error" id="error-email-address"></div>
+                </div>
+
+                <!-- Membership Plan Dropdown -->
+                <div class="form-group" id="group-membership-plan">
+                  <label for="membership-plan" class="form-label">
+                    Membership Plan <span class="label-required">*</span>
+                  </label>
+                  <select id="membership-plan" name="membershipPlan" class="form-select" required>
+                    <option value="" disabled selected>-- Select a Plan --</option>
+                    <option value="basic">Basic Plan (₹799/month)</option>
+                    <option value="pro">Pro Plan — Recommended (₹1,499/month)</option>
+                    <option value="elite">Elite VIP Plan (₹2,499/month)</option>
+                    <option value="trial">Free 1-Day Trial Pass</option>
+                  </select>
+                  <div class="form-error" id="error-membership-plan"></div>
+                </div>
+              </div>
+
+              <!-- Preferred Visit Date -->
+              <div class="form-group" id="group-visit-date">
+                <label for="visit-date" class="form-label">
+                  Preferred Visit Date <span class="label-required">*</span>
+                </label>
+                <input 
+                  type="date" 
+                  id="visit-date" 
+                  name="visitDate" 
+                  class="form-input" 
+                  required
+                >
+                <div class="form-error" id="error-visit-date"></div>
+              </div>
+
+              <!-- Message (Optional) -->
+              <div class="form-group" id="group-message">
+                <label for="user-message" class="form-label">
+                  Fitness Goals / Questions <span class="label-optional">(Optional)</span>
+                </label>
+                <textarea 
+                  id="user-message" 
+                  name="userMessage" 
+                  class="form-textarea" 
+                  placeholder="Tell us about your fitness targets, prior lifting background, or any questions..."
+                ></textarea>
+              </div>
+
+              <!-- Submit Button -->
+              <button type="submit" class="btn btn-primary btn-block">
+                SUBMIT ENQUIRY
+                <svg class="btn-icon-svg" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </button>
+
+              <p class="form-helper-note">
+                <strong>Demo Notice:</strong> This is a client-side demonstration website. Submitting this form displays an on-screen confirmation without transmitting data to a live backend.
+              </p>
+            </form>
+
+            <!-- Success Confirmation Card -->
+            <div class="form-success-card" id="form-success-card" role="alert" aria-live="polite">
+              <div class="success-icon-wrap">
+                <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              </div>
+              <h3 class="success-title">ENQUIRY RECEIVED</h3>
+              <p class="success-lead">
+                Thank you! Your demo pass & enquiry have been simulated successfully.
+              </p>
+              
+              <div class="success-summary-box">
+                <div class="success-summary-row">
+                  <span class="summary-key">Reference ID:</span>
+                  <span class="summary-val" id="sum-ref">IC-892104</span>
+                </div>
+                <div class="success-summary-row">
+                  <span class="summary-key">Full Name:</span>
+                  <span class="summary-val" id="sum-name">Vikram Malhotra</span>
+                </div>
+                <div class="success-summary-row">
+                  <span class="summary-key">Phone:</span>
+                  <span class="summary-val" id="sum-phone">+91 98765 43210</span>
+                </div>
+                <div class="success-summary-row">
+                  <span class="summary-key">Selected Plan:</span>
+                  <span class="summary-val" id="sum-plan">Pro Plan</span>
+                </div>
+                <div class="success-summary-row">
+                  <span class="summary-key">Visit Date:</span>
+                  <span class="summary-val" id="sum-date">2026-11-01</span>
+                </div>
+              </div>
+
+              <button type="button" class="btn btn-outline" id="btn-reset-form">
+                SUBMIT ANOTHER ENQUIRY
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================
+       12. FLOATING WHATSAPP BUTTON
+       ======================================================================== -->
+  <a href="#" id="floating-whatsapp" class="floating-whatsapp" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24"><path d="M16.75 13.96c.25.13.41.2.46.3.06.11.04.61-.21 1.18-.2.56-1.24 1.1-1.7 1.12-.46.02-.47.36-2.96-.73-2.49-1.09-3.99-3.75-4.11-3.92-.12-.17-.99-1.38-.99-2.63 0-1.25.61-1.86.83-2.12.22-.26.48-.32.64-.32.16 0 .32 0 .46.01.15.01.35-.06.55.43.2.49.69 1.7.75 1.83.06.13.1.28.02.44-.08.17-.12.27-.24.41-.12.14-.25.32-.36.43-.12.12-.24.25-.1.5.14.25.62 1.05 1.34 1.71.92.84 1.7 1.1 1.94 1.23.24.13.38.11.53-.06.15-.17.63-.74.8-1 .17-.26.34-.21.57-.12zM12 2a10 10 0 0 0-10 10c0 1.77.46 3.45 1.28 4.93L2 22l5.23-1.23A9.95 9.95 0 0 0 12 22a10 10 0 0 0 10-10A10 10 0 0 0 12 2zm0 18.2a8.16 8.16 0 0 1-4.22-1.17l-.3-.18-3.1.73.83-3.02-.2-.31A8.17 8.17 0 1 1 12 20.2z"/></svg>
+    <span class="floating-whatsapp-tooltip">Chat with Gym Desk</span>
+  </a>
+
+  <!-- ========================================================================
+       13. FOOTER
+       ======================================================================== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Col 1: Brand & Slogan -->
+        <div class="footer-brand">
+          <div class="footer-brand-title">
+            IRONCORE<span class="text-accent">.</span>
+          </div>
+          <p class="footer-brand-desc">
+            Engineered for strength, discipline, and uncompromising progress. We provide the equipment, the environment, and the guidance you need to dominate your limits.
+          </p>
+          <div class="footer-social-links">
+            <a href="#hero" class="footer-social-btn" aria-label="Instagram">
+              <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </a>
+            <a href="#hero" class="footer-social-btn" aria-label="YouTube">
+              <svg viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+            </a>
+            <a href="#hero" class="footer-social-btn" aria-label="Twitter">
+              <svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Col 2: Navigation Links -->
+        <div>
+          <div class="footer-col-title">Navigation</div>
+          <ul class="footer-links">
+            <li><a href="#hero" class="footer-link">Home</a></li>
+            <li><a href="#about" class="footer-link">About Ironcore</a></li>
+            <li><a href="#facilities" class="footer-link">Training Zones</a></li>
+            <li><a href="#trainers" class="footer-link">Head Coaches</a></li>
+            <li><a href="#membership" class="footer-link">Membership Plans</a></li>
+            <li><a href="#contact" class="footer-link">Contact & Location</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Facilities -->
+        <div>
+          <div class="footer-col-title">Facilities</div>
+          <ul class="footer-links">
+            <li><a href="#facilities" class="footer-link">Olympic Strength</a></li>
+            <li><a href="#facilities" class="footer-link">Cardio Zone</a></li>
+            <li><a href="#facilities" class="footer-link">Personal Training</a></li>
+            <li><a href="#facilities" class="footer-link">Functional Turf</a></li>
+            <li><a href="#facilities" class="footer-link">Sauna & Recovery</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Opening Hours & Contact Details -->
+        <div>
+          <div class="footer-col-title">Opening Hours</div>
+          <div class="footer-hours-list">
+            <div class="hours-row">
+              <span class="hours-day">Monday – Saturday</span>
+              <span class="hours-time">5:30 AM – 10:30 PM</span>
+            </div>
+            <div class="hours-row">
+              <span class="hours-day">Sunday</span>
+              <span class="hours-time">7:00 AM – 8:00 PM</span>
+            </div>
+            <div class="hours-row" style="margin-top: 0.5rem;">
+              <span class="hours-day">Demo Contact</span>
+              <span class="hours-time">+91 98765 43210</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 IRONCORE FITNESS. All rights reserved. Demo website built for presentation purposes.
+        </div>
+        <div class="footer-legal-links">
+          <span>Privacy Policy (Demo)</span>
+          <span>Terms of Service (Demo)</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Vanilla JavaScript -->
+  <script src="js/script.js"></script>
+</body>
+</html>
